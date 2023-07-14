@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  button {
+    width: 100%;
+  }  
+style
+    body{
+		background-image: url(conifers-1836582_1920.jpg);
+		background-position: center;
+		background-size: 150%;
+		background-repeat: no-repeat;		
+	}
+html{
+  font-size: medium;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  }
+style
+
+	h1 {
+        text-align: center;
+	  }
+
+	img {
+  	     display: block;
+  	     margin-left: auto;
+  	     margin-right: auto;
+	     }
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 20px;
+  text-align: center;
+  background-color: #c90202;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(255, 0, 0);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #ff0000;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 50%;
+    display: block;
+  }
+}
+style
+.image-container {
+	display: flex;
+	justify-content: center;
+}
+
+body {
+  /* Existing styles */
+  text-align: center; /* Added to center align the text in the body */
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Existing styles */
+
+.about-section {
+  /* Existing styles */
+  text-align: center;
+}
+
+/* Existing styles */
+
+.title {
+  color: rgb(255, 0, 0);
+  text-align: center; /* Added to center align the text in the title */
+}
+
+/* Existing styles */
+
+.button {
+  /* Existing styles */
+  margin: 0 auto; /* Added to center align the button horizontally */
+}
